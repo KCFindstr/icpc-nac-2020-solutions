@@ -9,7 +9,10 @@ We can show that such decision tree exists, because a sequence <img src="https:/
 2. <img src="https://gitcdn.link/repo/KCFindstr/icpc-nac-2020-solutions/master/svgs/082908fdd27a407db2f8f37c56542fd1.svg" align=middle width=114.67457759999998pt height=22.831056599999986pt/>
 
 To compute this, we can use mobius function.
-<p align="center"><img src="https://gitcdn.link/repo/KCFindstr/icpc-nac-2020-solutions/master/svgs/af7d0e5f28f54b2c682c12f557832b31.svg" align=middle width=1236.5811711pt height=59.03992379999999pt/></p>
+<p align="center"><img src="https://gitcdn.link/repo/KCFindstr/icpc-nac-2020-solutions/master/svgs/6d89625d228391fc8f2519c2bf5c7baa.svg" align=middle width=362.51966684999996pt height=49.9544793pt/></p>
+<p align="center"><img src="https://gitcdn.link/repo/KCFindstr/icpc-nac-2020-solutions/master/svgs/1dda7c43ee2a8e8e61d6272f1671ccd2.svg" align=middle width=349.67399939999996pt height=51.826645199999994pt/></p>
+<p align="center"><img src="https://gitcdn.link/repo/KCFindstr/icpc-nac-2020-solutions/master/svgs/39c0c00ebd276bd069a879ebd2bedab6.svg" align=middle width=320.60139705pt height=59.03992379999999pt/></p>
+<p align="center"><img src="https://gitcdn.link/repo/KCFindstr/icpc-nac-2020-solutions/master/svgs/f884aff7e6b8f648af6a207e74717603.svg" align=middle width=233.92235955pt height=48.3106437pt/></p>
 
 *The extra <img src="https://gitcdn.link/repo/KCFindstr/icpc-nac-2020-solutions/master/svgs/e0795d29372b8c5979fca89e51f78ac9.svg" align=middle width=57.53425259999999pt height=24.65753399999998pt/> comes from the special case when all <img src="https://gitcdn.link/repo/KCFindstr/icpc-nac-2020-solutions/master/svgs/281a9a88b90811b031714ff94f5bd9b3.svg" align=middle width=47.93843504999999pt height=22.465723500000017pt/>. When deriving the formula, we don't consider this case in the summation.
 
