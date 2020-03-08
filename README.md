@@ -87,9 +87,9 @@ Compute all feasible offsets for each pair of rows. Once done, try all possible 
 Runtime: <img src="https://rawcdn.githack.com/KCFindstr/icpc-nac-2020-solutions/master/svgs/3987120c67ed5a9162aa9841b531c3a9.svg" align=middle width=43.02219404999999pt height=26.76175259999998pt/>.
 
 ## Problem I - Editing Explosion
-Let <img src="https://rawcdn.githack.com/KCFindstr/icpc-nac-2020-solutions/master/svgs/ead3d02ae62fcecec7543efdd18aeecc.svg" align=middle width=46.59933794999999pt height=24.65753399999998pt/> denote the number of valid strings of length i, and S is a compressed state containing the edit distance from current string to the j-th prefix of the query string. i is upper bounded by |s|+d. Notice that the edit distance from current string to the 0-th prefix (length 0) is exactly i, and the edit distances to j-th and (j+1)-th predix differ by at most 1. Thus we could use a 3-based integer to encode the difference which allows us to retrieve the entire edit distance array.
+Let <img src="https://rawcdn.githack.com/KCFindstr/icpc-nac-2020-solutions/master/svgs/ead3d02ae62fcecec7543efdd18aeecc.svg" align=middle width=46.59933794999999pt height=24.65753399999998pt/> denote the number of valid strings of length i, and S is a compressed state containing the edit distance from current string to the j-th prefix of the query string. i is upper bounded by |s|+d. Notice that the edit distance from current string to the 0-th prefix (length 0) is exactly i, and the edit distances to j-th and (j+1)-th prefix differ by at most 1. Thus we can use a 3-based integer to encode the difference which allows us to retrieve the entire edit distance array.
 
-The rest of the transition is very similar to finding edit distance between to strings.
+The rest of the transition is very similar to finding edit distance between two strings.
 
 The total runtime is <img src="https://rawcdn.githack.com/KCFindstr/icpc-nac-2020-solutions/master/svgs/8146e78f58195a574cb62281c66910fa.svg" align=middle width=135.8149947pt height=29.190975000000005pt/>.
 
